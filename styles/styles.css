@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+margin: 35px auto 41px;
+padding: 23 0;
+width: 1167px;
+display: flex;
+justify-content: space-between; /* чтобы разъехались в разные стороны */
+align-items: center; /* отцентруем элементы по доп оси*/ 
+font-size: 25px;
+}
+
+.header_sitename {
+color: #142798;
+letter-spacing: 0.205em;
+margin-left: 10px;
+}
+
+.header_sitename-decorated {
+color: #002265;
+font-weight: 600;
+}
+
+.header_menu-list {
+display: flex;
+gap: 45px;
+list-style-type: none;
+padding-left: 0;
+}
+
+.header_menu-link {
+    letter-spacing: 0.055em;
+    text-decoration: none;
+}
+
+.header_menu-link_active {
+color: #FFFFFF;
+background-color: #608AF5;
+border-radius: 10px;
+padding: 10px 18px;
+font-weight: 600;
+}
+
+
+/* мэин */
+.welcome {
+margin: 0 auto 118px;
+width: 1167px;
+display: flex;
+justify-content: space-between;
+}
+
+.welcome_text-wrap {
+margin: 42px 0px 67px;
+width: 580px;
+}
+
+.welcome_title {
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+letter-spacing: 0.005em;
+color: #002265;
+margin-bottom: 100px; /* чтобы отодвинуть текст от заголовка */
+}
+
+.welcome_paragraph {
+font-size: 23px;
+line-height: 34px;
+letter-spacing: 0.015em;
+color: #082032;
+}
+.welcome_image {
+width: 500px;
+}
+
+.hobbies {
+width: 1141px;
+margin: 0 auto 168px; /*сверху 0, сбоку авто, снизу 168 */
+}
+
+.hobbies_title {
+text-align: center;
+font-weight: 600;
+font-size: 35px;
+letter-spacing: 0.055em;
+color: #002265;
+margin-bottom: 60px;
+}
+
+.hobbies_title-decorated {
+    color: #14279b;
+
+}
+
+.hobbies_list {
+display: flex;
+justify-content: space-between;
+align-items: start;
+}
+
+.hobbies-card {
+width: 347px;
+padding: 20px 22px 26px;
+text-align: center;
+border-radius: 13px;
+box-shadow: 0 0 10px black; /* смещение тени по x,y, блюр, цвет */
+}
+
+.hobbies-card_image {
+width: 225px;
+margin-bottom: 18px;
+}
+
+.hobbies-card_title {
+font-weight: 400;
+font-size: 25px;
+letter-spacing: 0.055em;
+margin-bottom: 13px;
+}
+
+.hobbies-card_title-decorated {
+font-weight: 600;
+}
+
+.hobbies-card_paragraph {
+font-size: 18px;
+letter-spacing: 0.055em;
+}
+
+.portfolio {
+width: 1141px;
+margin: 0 auto 168px;
+}
+
+.portfolio_title {
+
+}
+
+.portfolio_title-decorated {
+
+}
+
+.portfolio_list {
+
+}
+
+.portfolio_item {
+
+}
+
+.portfolio_link {
+
+}
+
+.portfolio-card {
+
+}
+
+.portfolio-card_element {
+
+}
+
+.portfolio-card_element_violet {
+
+}
+
+.senpay-logo {
+
+}
+
+.senpay-logo_image {
+
+}
+
+.sendpay-logo_text {
+
+}
+
+.portfolio-card_image {
+
+}
+
+.portfolio-card_element_blue {
+
+}
+
+.ecomerce-logo {
+
+}
+
+.ecomerce-logo_text {
+
+}
+
+.portfolio-card_element_grey {
+
+}
+
+.beats-logo {
+
+}
